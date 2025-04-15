@@ -7,6 +7,10 @@ const ContactSearchBar: React.FC<ISearchBarProps> = ({ value, onChange }) => (
   <SearchBar>
     <Icon name="search" position="absolute" top="5px" left="8px" width={20} />
     <SearchInput
+      type="text"
+      placeholder="Search contacts..."
+      value={value}
+      onChange={(e) => onChange(e.target.value)}
     />
   </SearchBar>
 )
