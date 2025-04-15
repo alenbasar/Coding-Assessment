@@ -17,6 +17,12 @@ This project implements a reusable React component, documented with Storybook an
    npm install
    ```
 
+2. **Run the project:**
+
+   ```bash
+   npm run dev
+   ```
+
 ## Component Development
 
 The component is located in the `src/components` directory. It is built using React and TypeScript.
