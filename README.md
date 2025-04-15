@@ -7,7 +7,7 @@ This project implements a reusable React component, documented with Storybook an
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/alenbasar/Coding-Assessment.git
+   git clone git@github.com:alenbasar/Coding-Assessment.git
    cd Coding-Assessment
    ```
 
