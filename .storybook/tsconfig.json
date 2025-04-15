@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    // or "react" for older versions
+    "esModuleInterop": true,
+    "strict": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "../src/**/*"
+  ],
+  "exclude": [
+    "../node_modules"
+  ]
+}
